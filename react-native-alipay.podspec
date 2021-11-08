@@ -13,10 +13,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "#{s.homepage}", :tag => "v#{s.version}" }
   s.source_files  = "ios/*.{h,m}"
   s.dependency "React"
-  s.resource = 'ios/AlipaySDK.bundle'
-  s.vendored_frameworks = 'ios/AlipaySDK.framework'
-  s.frameworks = "SystemConfiguration", "CoreTelephony", "QuartzCore", "CoreText", "CoreGraphics", "UIKit", "Foundation", "CFNetwork", "CoreMotion"
-  s.library = "c++", "z"
+  s.dependency "AlipaySDK-iOS", '15.7.9'
   s.requires_arc = true
 end
 
