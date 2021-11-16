@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.2](https://github.com/shm-open/react-native-alipay/compare/v1.0.1...v1.0.2) (2021-11-16)
+
+
+### Bug Fixes
+
+* **android:** bundle the noutdid version to work with baichuan sdk ([8fc2c55](https://github.com/shm-open/react-native-alipay/commit/8fc2c550bbbe6b1e4f08825fc48f53130ee66716))
+
 ### [1.0.1](https://github.com/shm-open/react-native-alipay/compare/v1.0.0...v1.0.1) (2021-11-10)
 
 
