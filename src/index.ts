@@ -1,8 +1,6 @@
 /* eslint-disable import/no-unused-modules */
 import { NativeModules } from 'react-native';
 
-const { Alipay } = NativeModules;
-
 type TStatus = '9000' | '8000' | '4000' | '5000' | '6001' | '6002';
 
 export interface IResult {
@@ -17,18 +15,18 @@ export interface IResponse {
 }
 
 export function authWithInfo(infoStr: string): Promise<IResult> {
-    return Alipay.authWithInfo(infoStr);
+    return NativeModules.Alipay.authWithInfo(infoStr);
 }
 
 // 设置沙箱模式
 export function setAlipaySandbox(isSandbox: boolean): void {
-    return Alipay.setAlipaySandbox(isSandbox);
+    return NativeModules.Alipay.setAlipaySandbox(isSandbox);
 }
 
 export function pay(infoStr: string): Promise<IResult> {
-    return Alipay.pay(infoStr);
+    return NativeModules.Alipay.pay(infoStr);
 }
 
 export function payInterceptorWithUrl(infoStr: string): Promise<IResponse> {
-    return Alipay.payInterceptorWithUrl(infoStr);
+    return NativeModules.Alipay.payInterceptorWithUrl(infoStr);
 }
