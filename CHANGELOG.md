@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.3](https://github.com/shm-open/react-native-alipay/compare/v1.0.2...v1.0.3) (2021-12-24)
+
+
+### Bug Fixes
+
+* **android:** use TurboReactPackage to lazy load the native module ([6ddfafb](https://github.com/shm-open/react-native-alipay/commit/6ddfafb24e56156401aed557b21258aa51275600))
+
 ### [1.0.2](https://github.com/shm-open/react-native-alipay/compare/v1.0.1...v1.0.2) (2021-11-16)
 
 
