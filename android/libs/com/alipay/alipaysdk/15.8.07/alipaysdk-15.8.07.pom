@@ -3,6 +3,6 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.alipay</groupId>
   <artifactId>alipaysdk</artifactId>
-  <version>15.8.5</version>
+  <version>15.8.07</version>
   <packaging>aar</packaging>
 </project>
