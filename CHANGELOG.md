@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/shm-open/react-native-alipay/compare/v1.0.3...v1.1.0) (2022-02-16)
+
+
+### Features
+
+* **android:** update sdk to 15.8.07 ([56789e3](https://github.com/shm-open/react-native-alipay/commit/56789e35fae49b7975e0d4c697776b97267ffd24))
+
+
+### Bug Fixes
+
+* **ios:** update alipaySDK TO 15.8.7 ([62377b7](https://github.com/shm-open/react-native-alipay/commit/62377b78f29c2fecc8ad71198f23595fc34e7303))
+
 ### [1.0.3](https://github.com/shm-open/react-native-alipay/compare/v1.0.2...v1.0.3) (2021-12-24)
 
 
