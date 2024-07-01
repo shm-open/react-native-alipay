@@ -42,7 +42,7 @@
     "concurrently": "8.2.2",
     "msf-cli": "1.2.5",
     "standard-version": "9.5.0",
-    "typescript": "5.5.2"
+    "typescript": "5.5.3"
   },
   "dependencies": {}
 }
