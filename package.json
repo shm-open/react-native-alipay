@@ -42,7 +42,7 @@
     "concurrently": "10.0.5",
     "msf-cli": "1.2.5",
     "commit-and-tag-version": "13.1.2",
-    "typescript": "5.9.3"
+    "typescript": "7.0.2"
   },
   "dependencies": {}
 }
