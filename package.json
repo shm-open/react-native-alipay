@@ -41,7 +41,7 @@
     "@types/react-native": "0.73.0",
     "concurrently": "10.0.5",
     "msf-cli": "1.2.5",
-    "commit-and-tag-version": "13.1.2",
+    "commit-and-tag-version": "13.2.0",
     "typescript": "5.9.3"
   },
   "dependencies": {}
